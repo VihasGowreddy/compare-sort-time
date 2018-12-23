@@ -8,7 +8,7 @@ has on the time complexity of each of these sorts. Looking at selection and bubb
 worst-case time complexity, they actually have different best-case time complexities. The figures below show how bubble sort and selection
 sort normally work. 
 
-The worst-case time complexity is when the array is in opposite order so bubble sort and selection sort will both have n*n(n-1)/2 
+The worst-case time complexity is when the array is in opposite order so bubble sort and selection sort will both have n(n(n-1))/2 
 comparisons (or O(n^2) time complexity) where n is the number of elements. The best case time complexity is when the array is already 
 in order and bubble sort is more efficient in the case as it will only make one pass through the entire array with only n-1 comparisons 
 while selection sort will still have n passes with n*(n-1)/2 key comparisons therefore making bubble sort faster with its O(n) time 
